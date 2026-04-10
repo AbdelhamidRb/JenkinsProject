@@ -55,6 +55,11 @@ class BMICalculatorNestedTest {
             boolean recommended = BMICalculator.isDietRecommended(weight, height);
             //then
             assertTrue(recommended);
+
+
+
+
+            
         }
 
         @Test
@@ -90,6 +95,10 @@ class BMICalculatorNestedTest {
             Coder coderWorstBMI = BMICalculator.findCoderWithWorstBMI(coders);
 
             // then
+
+
+
+            
 
             assertEquals(1.82, coderWorstBMI.getHeight());
             assertEquals(98.0, coderWorstBMI.getWeight());
